@@ -1,6 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { createRequire } from 'module';
+
+const require = createRequire(import.meta.url);
 
 function App() {
   return (
